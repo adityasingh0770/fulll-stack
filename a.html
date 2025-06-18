@@ -1,14 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webdevlopment</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My IIT Bombay Journey</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-
+  <header>
+    <h1>My Journey at IIT Bombay</h1>
+    ,<nav>
+      <ol>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#learnings">Learnings</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#guestbook">Guestbook</a></li>
+      </ol>
+   </nav>
+  </header>
+  <div id="intro">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Aditya singh, a student at IIT Bombay. Here's a glimpse into my journey so far — the memories, the growth, and the fun.</p>
+  </div>
+  <section id="timeline">
+    <h2>Key Milestones</h2>
+    <div>
+    <ul>
+      <li><strong>Day 1:</strong> Arrived on campus, full of excitement!</li>
+      <li><strong>TechFest:</strong> Participated in robotics challenge.</li>
+      <li><strong>Internship:</strong> Completed a research internship in Summer 2024.</li>
+      <li><strong>Hostel Life:</strong> Nights filled with Maggi and friends.</li>
+  </ul>
+  </div>
+  </section>
+  <section id="learnings">
+    <h2>Learnings & Growth</h2>
+    <p>During my time at IITB, I've learned valuable skills like coding in Java, working with teams, and exploring machine learning.</p>
+    <ul>
+      <li> Favorite Course: CS101</li>
+      
+      <li> Projects: Weather App, Mini CFD Sim</li>
+      
+    </ul>
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img height="167" width="600"     src="image.png" alt="Hostel life" />
+      <img width="200" src="image copy.png" alt="Techfest" />
+      <img height="166" width="200"  src="image copy 4.png" alt="Project work" />
+    </div>
+  </section>
   
+  </section>
+  <section id="guestbook">
+    <h2>Guestbook</h2>
+    <form id="guestForm">
+      <input type="text" placeholder="Your name" id="name" required />
+      <textarea placeholder="Leave a message..." id="message" required></textarea>
+      <button type="submit">Post</button>
+    </form>
+    <div id="messages"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aditya singh | <a href="https://www.iitb.ac.in">IIT Bombay</a> | <a href="#">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
